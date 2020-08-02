@@ -5,13 +5,11 @@
 	<form (submit)="$event.preventDefault()">
 		<mat-form-field appearance="standard">
 			<mat-label>New Password</mat-label>
-			<input matInput #first>
-			<!-- <mat-hint> Autofilled!</mat-hint> -->
+			<input matInput #password>
 		</mat-form-field > 
 		<mat-form-field appearance="standard">
 			<mat-label>Repeat New Password</mat-label>
-			<input matInput #last>
-			<!-- <mat-hint>Autofilled!</mat-hint> -->
+			<input matInput #passwordRepeat>
 		</mat-form-field>
 		<button mat-button color="success">Primary</button>
 	</form>

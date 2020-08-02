@@ -6,6 +6,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { Routes, RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 		AppComponent
 	],
 	imports: [
+		RouterModule.forRoot([]),
 		BrowserModule,
 		NoopAnimationsModule,
 		MatInputModule,
