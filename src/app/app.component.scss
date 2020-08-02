@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+ion-icon {
+    color: whitesmoke;
+}
+
+.form {
+    --ion-background-color: var(--ion-color-dark);
+}
+
+.small-text {
+    color: gray;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.login-container {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4rem;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ion-item:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ion-item.round-bottom-edges {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ion-input,
+ion-label {
+    --color: whitesmoke !important;
+}
+
+a,
+p {
+    color: rgb(150, 150, 150);
+}
