@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
 	}
 
 	APIresetPassword(): Observable<any> {
-		return this.httpClient.post<any>(`http://localhost:5000/api/users/resetPassword`, {
+		return this.httpClient.post<any>(`https://www.tichutimo.ch/api/users/resetPassword`, {
 			user: this.user,
 			code: this.code,
 			newPassword1: this.password,
