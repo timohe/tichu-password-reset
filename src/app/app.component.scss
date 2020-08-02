@@ -1,3 +1,98 @@
+:host {
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mat-success {
+    background-color: #e57c0e;
+    color: whitesmoke;
+}
+
+.mat-form-field {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.mat-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::ng-deep .mat-form-field {
+    .mat-input-element {
+        color: whitesmoke;
+    }
+
+    .mat-form-field-label {
+        color: whitesmoke;
+    }
+
+    .mat-form-field-underline {
+        background-color: whitesmoke;
+    }
+
+    .mat-form-field-ripple {
+        background-color: whitesmoke;
+    }
+
+    .mat-form-field-required-marker {
+        color: whitesmoke;
+    }
+}
+
+::ng-deep .mat-form-field.mat-focused {
+    .mat-form-field-label {
+        color: #e57c0e;
+    }
+
+    .mat-form-field-ripple {
+        background-color: #e57c0e;
+    }
+
+    .mat-form-field-required-marker {
+        color: #e57c0e;
+    }
+
+    .mat-input-element {
+        color: #e57c0e;
+    }
+}
+
+::ng-deep .mat-form-field.mat-form-field-invalid {
+    .mat-input-element {
+        color: #ff33cc;
+    }
+
+    .mat-form-field-label {
+        color: #ff33cc;
+
+        .mat-form-field-required-marker {
+            color: #ff33cc;
+        }
+    }
+
+    .mat-form-field-ripple {
+        background-color: #ff33cc;
+    }
+}
+
+.spacer {
+    flex: 1;
+}
+
+.content {
+    // display: flex;
+    // margin: 82px auto 32px;
+    // padding: 0 16px;
+    // max-width: 960px;
+    // flex-direction: column;
+    align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -7,51 +102,10 @@ h5 {
     text-align: center;
 }
 
-ion-icon {
-    color: whitesmoke;
-}
-
-.form {
-    --ion-background-color: var(--ion-color-dark);
-}
-
-.small-text {
-    color: gray;
-}
-
-.lowercase {
-    text-transform: lowercase;
-}
-
-.login-container {
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 4rem;
-}
-
 img {
-    width: 30%;
+    width: 7em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-ion-item:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-ion-item.round-bottom-edges {
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-ion-input,
-ion-label {
-    --color: whitesmoke !important;
-}
-
-a,
-p {
-    color: rgb(150, 150, 150);
+    margin-top: 20%;
 }
